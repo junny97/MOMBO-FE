@@ -129,11 +129,6 @@ const NavBar = () => {
         ref={fileInputRef}
         onChange={handleSelectPhoto}
       />
-      {photoSrc && (
-        <div className='mt-5 flex justify-center'>
-          <img src={photoSrc} alt='Preview' className='h-32 w-32 rounded-md' />
-        </div>
-      )}
     </nav>
   );
 };
